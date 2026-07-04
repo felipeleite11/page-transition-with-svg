@@ -16,7 +16,8 @@ barba.init({
 				return gsap.to(svgPath, {
 					drawSVG: '100%',
 					strokeWidth: 190,
-					duration: 1
+					duration: 1,
+					ease: 'power2.out'
 				})
 			},
 			enter() {
@@ -26,7 +27,8 @@ barba.init({
 					.to(svgPath, {
 						drawSVG: '100% 100%',
 						strokeWidth: 2,
-						duration: 1
+						duration: 1,
+						ease: 'power2.in'
 					})
 					.set(svgPath, {
 						drawSVG: '0%'
