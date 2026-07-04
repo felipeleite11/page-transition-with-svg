@@ -1,10 +1,10 @@
 # 🎬 Animated Page Transitions with GSAP + Barba.js
 
-<img width="100%" alt="Demo" src="demo.png" />
-
 Este projeto cria transições animadas entre páginas utilizando **Barba.js** para gerenciamento de navegação SPA-like e **GSAP** para animações avançadas, incluindo a manipulação de um **SVG personalizado** como elemento principal da transição.
 
 ## ✨ Demonstração
+
+<img width="100%" alt="Demo" src="demo.png" />
 
 O objetivo deste projeto é criar uma experiência de navegação mais fluida e envolvente, substituindo a troca instantânea de páginas por uma animação personalizada baseada em SVG.
 
